@@ -33,6 +33,7 @@ header {
 .navigation {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .navigation nav ul {
@@ -527,5 +528,104 @@ footer .icons img {
     font-weight: 300;
     line-height: normal;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 3.5%;
+}
+
+@media screen and (max-width:600px) {
+    header {
+        padding: 5% 5% 0 5%;
+    }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigation h2 .text {
+        font-size: 24px;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+    }
+
+    .input {
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input fieldset,
+    .input fieldset select,
+    .input button {
+        margin-bottom: 10px;
+        width: 95%;
+    }
+
+    .input fieldset,
+    .input fieldset select,
+    .input button,
+    .input fieldset p {
+        font-size: 14px;
+    }
+
+    .tours {
+        flex-direction: column;
+
+    }
+
+    .tour-text {
+        padding-right: 0;
+    }
+
+    .tour-text h2.section-head {
+        font-size: 24px;
+    }
+
+    .tour-text p.section-text,
+    .tour-text ul,
+    .tour-text button p {
+        font-size: 12px;
+    }
+
+    .pic {
+        margin-top: 5%;
+        width: 100%;
+        height: auto;
+    }
+
+    .destinations .row1,
+    .row2,
+    .row3 {
+        flex-direction: column;
+    }
+
+    .destinations .pics .row1 .mal,
+    .ind,
+    .sri,
+    .na,
+    .kash,
+    .bd,
+    .bban {
+        width: 100%;
+        height: auto;
+    }
+
+    .features h2 {
+        padding-top: 10px;
+    }
+
+    .features .row1 {
+        flex-direction: column;
+    }
+
+    .features .row1 img {
+        width: 40px;
+        height: 40px;
+    }
+
+
 }
