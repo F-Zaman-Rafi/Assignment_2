@@ -415,7 +415,7 @@ header {
     font-family: Mulish;
     font-size: 21px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     line-height: normal;
 }
 
@@ -562,147 +562,151 @@ footer .icons img {
         font-size: 24px;
     }
 
-    .banner-text h1 {
-        font-size: 30px;
-    }
+    .navigation nav ul li {
+        padding-left: 5px;
 
-    .banner-text p {
-        font-size: 14px;
-    }
+        .banner-text h1 {
+            font-size: 30px;
+        }
 
-    .input {
-        margin: 5%;
-        display: flex;
-        flex-direction: column;
-    }
+        .banner-text p {
+            font-size: 14px;
+        }
 
-    .input fieldset,
-    .input fieldset select,
-    .input button {
-        margin-bottom: 10px;
-        width: 95%;
-    }
+        .input {
+            margin: 5%;
+            display: flex;
+            flex-direction: column;
+        }
 
-    .input fieldset,
-    .input fieldset select,
-    .input button,
-    .input fieldset p {
-        font-size: 14px;
-    }
+        .input fieldset,
+        .input fieldset select,
+        .input button {
+            margin-bottom: 10px;
+            width: 95%;
+        }
 
-    .tours {
-        flex-direction: column;
+        .input fieldset,
+        .input fieldset select,
+        .input button,
+        .input fieldset p {
+            font-size: 14px;
+        }
 
-    }
+        .tours {
+            flex-direction: column;
 
-    .tour-text {
-        padding-right: 0;
-    }
+        }
 
-    .tour-text h2.section-head {
-        font-size: 24px;
-    }
+        .tour-text {
+            padding-right: 0;
+        }
 
-    .tour-text p.section-text,
-    .tour-text ul,
-    .tour-text button p {
-        font-size: 12px;
-    }
+        .tour-text h2.section-head {
+            font-size: 24px;
+        }
 
-    .pic {
-        margin-top: 5%;
-        width: 100%;
-        height: auto;
-    }
+        .tour-text p.section-text,
+        .tour-text ul,
+        .tour-text button p {
+            font-size: 12px;
+        }
 
-    .destinations .row1,
-    .row2,
-    .row3 {
-        flex-direction: column;
-    }
+        .pic {
+            margin-top: 5%;
+            width: 100%;
+            height: auto;
+        }
 
-    .destinations .pics .row1 .mal,
-    .ind,
-    .sri,
-    .na,
-    .kash,
-    .bd,
-    .bban {
-        width: 100%;
-        height: auto;
-    }
+        .destinations .row1,
+        .row2,
+        .row3 {
+            flex-direction: column;
+        }
 
-
-    .features .row1 {
-        flex-direction: column;
-    }
-
-    .features .row2 {
-        padding: 0 0 20px 0;
-
-    }
-
-    .features .row1 img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .features h3 {
-        font-size: 20px;
-    }
-
-    .features p {
-        font-size: 14px;
-    }
-
-    .newsletter {
-        flex-direction: column;
-    }
-
-    .newsletter .text {
-        width: 90%;
-    }
-
-    .newsletter .text p,
-    .newsletter .text input,
-    .newsletter .text,
-    .newsletter fieldset p {
-        font-size: 12px;
-        margin-bottom: 20px;
-    }
-
-    .news-pic {
-        margin-top: 20px;
-        width: 100%;
-    }
-
-    .newsletter fieldset {
-        width: 200px;
-        height: 80px;
-        transform: rotate(-22.628deg);
-        bottom: 120px;
-        left: 175px;
-    }
-
-    .newsletter fieldset p {
-        font-size: 16px;
-        padding-bottom: 20px;
-    }
-
-    .save {
-
-        font-size: 20px;
-    }
+        .destinations .pics .row1 .mal,
+        .ind,
+        .sri,
+        .na,
+        .kash,
+        .bd,
+        .bban {
+            width: 100%;
+            height: auto;
+        }
 
 
-    footer h2 .text {
-        font-size: 20px;
-    }
+        .features .row1 {
+            flex-direction: column;
+        }
 
-    footer .icons img {
+        .features .row2 {
+            padding: 0 0 20px 0;
+
+        }
+
+        .features .row1 img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .features h3 {
+            font-size: 20px;
+        }
+
+        .features p {
+            font-size: 14px;
+        }
+
+        .newsletter {
+            flex-direction: column;
+        }
+
+        .newsletter .text {
+            width: 90%;
+        }
+
+        .newsletter .text p,
+        .newsletter .text input,
+        .newsletter .text,
+        .newsletter fieldset p {
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+
+        .news-pic {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .newsletter fieldset {
+            width: 200px;
+            height: 80px;
+            transform: rotate(-22.628deg);
+            bottom: 120px;
+            left: 175px;
+        }
+
+        .newsletter fieldset p {
+            font-size: 16px;
+            padding-bottom: 20px;
+        }
+
+        .save {
+
+            font-size: 20px;
+        }
+
+
+        footer h2 .text {
+            font-size: 20px;
+        }
+
         height: 10px;
         width: 10px;
         margin-bottom: 10px;
+        padding: 50px 10px;
+
     }
 
     .container .icons {
@@ -711,16 +715,9 @@ footer .icons img {
         border-bottom: 1px solid rgba(19, 19, 24, 0.10);
     }
 
-    footer .icons img {
-        height: 25px;
-        width: 25px;
-        padding: 50px 10px;
-    }
-
 
     .container .copyright p {
         margin-top: 5%;
         font-size: 14px;
     }
-
 }
