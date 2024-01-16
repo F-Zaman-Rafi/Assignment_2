@@ -473,6 +473,10 @@ header {
     padding: 5%;
 }
 
+.save {
+    font-size: 30px;
+}
+
 footer {
     height: 502px;
     background-color: rgba(19, 19, 24, 0.05);
@@ -506,7 +510,7 @@ footer h2 .orange {
 }
 
 .container .icons {
-    margin-left: 19%;
+    margin: 0 18.5%;
     width: 872px;
     border-bottom: 1px solid rgba(19, 19, 24, 0.10);
 
@@ -514,7 +518,7 @@ footer h2 .orange {
 
 footer .icons img {
     height: 25px;
-    height: 25px;
+    width: 25px;
     padding: 50px 10px;
 
 
@@ -524,11 +528,10 @@ footer .icons img {
     color: #131318;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
     text-align: center;
     padding-top: 3.5%;
+    margin: 0 27% 0 30%;
 }
 
 @media screen and (max-width:600px) {
@@ -614,12 +617,14 @@ footer .icons img {
         height: auto;
     }
 
-    .features h2 {
-        padding-top: 10px;
-    }
 
     .features .row1 {
         flex-direction: column;
+    }
+
+    .features .row2 {
+        padding: 0 0 20px 0;
+
     }
 
     .features .row1 img {
@@ -627,5 +632,80 @@ footer .icons img {
         height: 40px;
     }
 
+    .features h3 {
+        font-size: 20px;
+    }
+
+    .features p {
+        font-size: 14px;
+    }
+
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .newsletter .text {
+        width: 90%;
+    }
+
+    .newsletter .text p,
+    .newsletter .text input,
+    .newsletter .text,
+    .newsletter fieldset p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .news-pic {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .newsletter fieldset {
+        width: 200px;
+        height: 80px;
+        transform: rotate(-22.628deg);
+        bottom: 120px;
+        left: 175px;
+    }
+
+    .newsletter fieldset p {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .save {
+
+        font-size: 20px;
+    }
+
+
+    footer h2 .text {
+        font-size: 20px;
+    }
+
+    footer .icons img {
+        height: 10px;
+        width: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container .icons {
+        margin: 0 40px;
+        width: auto;
+        border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    }
+
+    footer .icons img {
+        height: 25px;
+        width: 25px;
+        padding: 50px 10px;
+    }
+
+
+    .container .copyright p {
+        margin-top: 5%;
+        font-size: 14px;
+    }
 
 }
