@@ -7,6 +7,7 @@
 
 header {
     padding: 5% 10% 0 10%;
+    overflow: hidden;
 }
 
 .navigation h2 .text {
@@ -253,22 +254,31 @@ header {
     padding-bottom: 3%;
 }
 
-.row1 {
+.maal {
     position: relative;
-    text-align: center;
+    width: 100%;
+    /* margin: auto; */
 }
 
-
-.pics .row1.text {
+.maal h1 {
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
-    /* Adjust the top position as needed */
     left: 50%;
-    /* Adjust the left position as needed */
     transform: translate(-50%, -50%);
-
-
+    width: 180%;
+    text-align: center;
+    font-size: 3rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
+
+
 
 .destinations .pics .row1 {
     display: flex;
@@ -563,7 +573,7 @@ footer .icons img {
     }
 
     .navigation nav ul li {
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
     .banner-text h1 {
@@ -623,7 +633,10 @@ footer .icons img {
     .row2,
     .row3 {
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
+
 
     .destinations .pics .row1 .mal,
     .ind,
