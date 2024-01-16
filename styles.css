@@ -248,6 +248,11 @@ header {
     padding-top: 7%;
 }
 
+.destinations .section-text {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
 .row1 {
     position: relative;
     text-align: center;
@@ -321,6 +326,16 @@ header {
 .bban {
     width: 600px;
     height: 250px;
+
+}
+
+.choose {
+    padding: 10% 0 5px 0;
+}
+
+.choose p {
+    padding: 10px 0 20px 0;
+    text-align: center;
 
 }
 
@@ -398,7 +413,7 @@ header {
 .newsletter .text h3 {
     color: #131318;
     font-family: Mulish;
-    font-size: 24px;
+    font-size: 21px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
