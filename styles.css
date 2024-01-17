@@ -10,6 +10,10 @@ header {
     overflow: hidden;
 }
 
+button {
+    cursor: pointer;
+}
+
 .navigation h2 .text {
     padding-left: 10px;
     position: relative;
@@ -216,7 +220,13 @@ header {
     /* 162.5% */
 }
 
-.tour-text ul {
+.tour-text button,
+.simple-text button {
+    margin-top: 5%;
+}
+
+.tour-text ul,
+.simple-text ul {
     padding-left: 9%;
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
@@ -233,7 +243,8 @@ header {
     flex-shrink: 0;
 }
 
-.tour-text button p {
+.tour-text button p,
+.simple-text button p {
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -421,9 +432,28 @@ header {
     text-align: left;
 }
 
+
+.video {
+    display: flex;
+    padding: 5% 0;
+}
+
+.simple-text h2,
+p,
+ul {
+    padding: 2%;
+}
+
+.simple-video iframe {
+    border-radius: 16px;
+    width: 560px;
+    height: 450px;
+}
+
 .newsletter {
     display: flex;
     justify-content: space-between;
+    padding-top: 3%;
 }
 
 .newsletter .text {
@@ -690,6 +720,19 @@ footer .icons img {
         font-size: 14px;
     }
 
+    .video {
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0;
+        width: 100%;
+    }
+
+    .simple-video iframe {
+        margin-top: 5%;
+        width: 100%;
+
+    }
+
     .newsletter {
         flex-direction: column;
     }
@@ -697,6 +740,8 @@ footer .icons img {
     .newsletter .text {
         width: 90%;
     }
+
+
 
     .newsletter .text p,
     .newsletter .text input,
