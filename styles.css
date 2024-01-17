@@ -657,7 +657,9 @@ ul {
 .spo-img {
     display: flex;
     justify-content: center;
-    background-color: #6c6caf8a;
+    background-color: #1cc0f12c;
+    margin: 5% 20%;
+    border-radius: 15px;
 }
 
 .ali {
