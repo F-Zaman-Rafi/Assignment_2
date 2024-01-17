@@ -254,13 +254,25 @@ header {
     padding-bottom: 3%;
 }
 
-.maal {
+.maal,
+.indo,
+.sril,
+.north,
+.kashm,
+.bdesh,
+.bbaan {
     position: relative;
     width: 100%;
     /* margin: auto; */
 }
 
-.maal h1 {
+.maal h1,
+.indo h1,
+.sril h1,
+.north h1,
+.kashm h1,
+.bdesh h1,
+.bbaan h1 {
     color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
@@ -281,7 +293,8 @@ header {
 
 
 .destinations .pics .row1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     padding-bottom: 2%;
 }
@@ -296,9 +309,11 @@ header {
 
 
 .destinations .pics .row2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     justify-content: space-between;
-    padding-bottom: 2%;
+    /* padding-bottom: 2%; */
 
 }
 
@@ -315,15 +330,16 @@ header {
 }
 
 .kash {
-    width: 270px;
+    width: 275px;
     height: 250px;
     flex-shrink: 0;
 }
 
 .destinations .pics .row3 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
-    padding-bottom: 2%;
+    padding: 2% 0;
 
 }
 
@@ -629,10 +645,11 @@ footer .icons img {
         height: auto;
     }
 
-    .destinations .row1,
-    .row2,
-    .row3 {
-        flex-direction: column;
+    .destinations .pics .row1,
+    .destinations .pics .row2,
+    .destinations .pics .row3 {
+        display: grid;
+        grid-template-columns: 1fr;
         width: 100%;
         height: auto;
     }
@@ -652,6 +669,7 @@ footer .icons img {
 
     .features .row1 {
         flex-direction: column;
+
     }
 
     .features .row2 {
