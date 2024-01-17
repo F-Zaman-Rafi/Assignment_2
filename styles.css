@@ -654,6 +654,16 @@ ul {
     padding: 5%;
 }
 
+.spo-img {
+    display: flex;
+    justify-content: center;
+    background-color: #6c6caf8a;
+}
+
+.ali {
+    padding: 5% 10%;
+}
+
 .save {
     font-size: 30px;
 }
@@ -868,6 +878,16 @@ footer .icons img {
         height: 500px;
         flex-shrink: 0;
         background-repeat: no-repeat;
+    }
+
+    .spo-img {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ali {
+        padding: 10% 10%;
+        margin-left: 20%;
     }
 
     .newsletter {
